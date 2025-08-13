@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    max-height: 90%;
+    min-width: 90%;
+    border-radius: 8px;
+    overflow-y: auto;
+  }
+
+  .modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #000;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+
+  .small-text {
+    font-size: 12px;
+    color: #999;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+
+  .close-btn {
+    background-color: #ccc;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .close-btn:hover {
+    background-color: #aaa;
+  }
+</style>
+</head>
+<body>
+
+<!-- Modal -->
+<div class="modal-overlay" id="privacyModal">
+  <div class="modal-content">
+    <div class="modal-title">Privacy Policy</div>
+
+    <p>Last updated: <script>document.write(new Date().toLocaleDateString());</script></p>
+
+    <h2>Information We Collect</h2>
+    <p>
+      • Game scores and progress (stored locally on your device)<br>
+      • App usage analytics (anonymous)<br>
+      • Ad interaction data (managed by Google AdMob)<br>
+      • Device information for ad serving
+    </p>
+
+    <h2>How We Use Information</h2>
+    <p>
+      • To save your game progress and high scores<br>
+      • To improve app performance and user experience<br>
+      • To display relevant advertisements<br>
+      • To provide technical support when requested
+    </p>
+
+    <h2>Data Storage and Security</h2>
+    <p>
+      • Game data is stored locally on your device<br>
+      • We do not store personal information on our servers<br>
+      • Analytics data is anonymized and aggregated<br>
+      • We use industry-standard security measures
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>
+      • Google AdMob for advertisement serving<br>
+      • Google Analytics for app usage statistics<br>
+      • These services have their own privacy policies<br>
+      • You can opt out of personalized ads in your device settings
+    </p>
+
+    <h2>Children's Privacy</h2>
+    <p>
+      Our app is designed to be family-friendly. We do not knowingly
+      collect personal information from children under 13. All
+      advertisements are family-safe and appropriate for all ages.
+    </p>
+
+    <h2>Your Rights</h2>
+    <p>
+      • Delete app data by uninstalling the app<br>
+      • Opt out of personalized ads in device settings<br>
+      • Contact us with privacy concerns<br>
+      • Request information about data we collect
+    </p>
+
+    <h2>Contact Us</h2>
+    <p>
+      If you have questions about this Privacy Policy, please contact us
+      at: <a href="mailto:alidiplana@gmail.com">alidiplana@gmail.com</a>
+    </p>
+
+    <p class="small-text">
+      This Privacy Policy may be updated from time to time. We will
+      notify users of any material changes through app updates.
+    </p>
+
+    <button class="close-btn" onclick="document.getElementById('privacyModal').style.display='none'">
+      Close
+    </button>
+  </div>
+</div>
+
+</body>
+</html>
